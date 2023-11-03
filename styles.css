@@ -1,0 +1,84 @@
+ol,
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.seccion-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  background-color: antiquewhite;
+}
+header {
+  display: flex;
+  background-color: rgba(34, 33, 31, 0.85);
+  align-items: center;
+  justify-content: space-between;
+}
+header a i {
+  color: white;
+  font-size: 3em;
+  padding: 0.5em;
+}
+header nav ul {
+  display: flex;
+  gap: 1em;
+}
+header nav ul li a {
+  color: white;
+}
+.medalla {
+  width: 10em;
+  height: 10em;
+}
+.cristal {
+  width: 60%;
+  /* height: 20em; */
+}
+.seccion-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+.AcercaDe {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.titulos {
+  display: flex;
+  gap: 1em;
+  justify-content: space-between;
+}
+.titulo {
+  font-family: "Raleway", sans-serif;
+  font-size: large;
+}
+footer {
+  display: flex;
+
+  align-items: center;
+  background-color: rgb(51, 48, 48);
+  flex-direction: column;
+  color: beige;
+}
+/* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+  .medalla {
+    width: 5em;
+    height: 5em;
+  }
+  header nav ul {
+    display: table-column;
+    gap: 1em;
+  }
+  /* Aquí puedes escribir los estilos que se aplicarán en pantallas más pequeñas */
+}
+
+.imagenpw{
+  width: 15em;
+  height: 15em;
+}
